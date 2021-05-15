@@ -12,17 +12,10 @@ body {
     background: rgb(241, 240, 249);
     background: linear-gradient(
         90deg,
-        rgba(241, 240, 249, 1) 0%,
-        rgba(231, 216, 220, 1) 35%,
-        rgba(217, 233, 236, 1) 100%
+        rgba(231, 216, 220, 1) 0%,
+        rgba(217, 233, 236, 1) 0%,
+        rgba(241, 240, 249, 1) 0%
     );
-}
-
-.top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .landing {
@@ -34,21 +27,16 @@ body {
     /*background-color: gray;*/
 }
 
+span.spacer:first-child {
+    flex: 1 1 40%;
+}
+
+span.spacer:last-child {
+    flex: 1 1 60%;
+}
+
 .heading {
     padding-top: 60px;
-}
-
-.contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    font-size: small;
-}
-
-.contact > div {
-    margin: 4px;
 }
 
 .footer {

@@ -37,6 +37,7 @@ span.spacer:last-child {
 
 .heading {
     padding-top: 60px;
+    user-select: none;
 }
 
 .footer {
